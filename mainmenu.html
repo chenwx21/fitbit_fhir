@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Main Menu</title>
+
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+<link rel="stylesheet" type="text/css" href="css/icons.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script src="js/modernizr.custom.js"></script>
+
+
+</head>
+<body>
+<div class="container">
+	<!-- Push Wrapper -->
+	<div class="mp-pusher" id="mp-pusher">
+
+		<!-- mp-menu -->
+		<nav id="mp-menu" class="mp-menu">
+			<div class="mp-level">
+				<h2 class="icon icon-world">Menu</h2>
+
+				<ul>
+					<li><a href="#">Fitbit Sync</a></li>
+					<li><a href="#">Add</a></li>
+					<li><a href="#">Edit</a></li>
+					<li><a href="#">Delete</a></li>
+					<li><a href="#">Query</a></li>
+					<li><a href="#">Visualize</a></li>
+					<li><a href="#">Logout</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- /mp-menu -->
+
+		<div class="scroller"><!-- this is for emulating position fixed of the nav -->
+			<div class="scroller-inner">
+
+				<div class="content clearfix">
+					<div class="block block-40 clearfix">
+						<p><a href="#" id="trigger" class="menu-trigger">Main Menu</a></p>
+
+						<header>
+							<h1>Main Menu for EastCoast Millionaires, Enjoy your time in our website</h1>
+							<h3>with support from <a href="https://www.uhc.com/">UHC</a> </h3>
+						</header>
+
+						<img src="img/logo.png" alt="EastCoast Millionaires" style="width:1200px;height:300px;">
+					</div>
+
+
+				</div>
+			</div><!-- /scroller-inner -->
+		</div><!-- /scroller -->
+
+	</div><!-- /pusher -->
+</div><!-- /container -->
+
+
+<script src="js/classie.js"></script>
+<script src="js/mlpushmenu.js"></script>
+<script>
+new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+</script>
+
+</body>
+</html>
+
+<!-- credit goes to: http://www.51qianduan.com/article/358.html -->

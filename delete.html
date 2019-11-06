@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" language="javascript"  src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/login.js"></script>
+    <!--<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>-->
+    <style>
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Patient-Generated Health Data Platform</a>
+        </div>
+
+    </div>
+</nav>
+<div class="login">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="wrapper">
+            <h2 class="form-signin-heading">Please login</h2>
+            <input type="text" class="form-control" name="username" id="username" placeholder="Username" required="" autofocus="" /><br>
+            <input type="password" class="form-control" name="password" id="password" placeholder="Password" required=""/><br>
+            <button class="btn btn-lg btn-primary btn-block" onClick="authenticate();">Login</button>
+            </br>
+            <a href="index.html" class="btn btn-success" role="button">Back</a>
+            </br>
+            </br>
+            <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22BCFK&redirect_uri=https%3A%2F%2Fapps.hdap.gatech.edu%2Fnewpghd1frontend%2Ftest.html&scope=activity%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight&expires_in=604800" class="btn btn-success" role="button">Log in Fitbit</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
