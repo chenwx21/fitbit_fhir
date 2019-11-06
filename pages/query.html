@@ -1,0 +1,63 @@
+<!-- <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Query</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css">
+  </head>
+  <body>
+    <h2>Query Health Data</h2>
+
+    <a href="../mainmenu.html" class="btn btn-primary btn-lg">Main</a>
+    <a href="create.html" class="btn btn-warning btn-lg">Create</a>
+    <a href="edit.html" class="btn btn-danger btn-lg">Edit</a>
+    <a href="visualize.html" class="btn btn-success btn-lg">Visualize</a>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Query Health Data</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" language="javascript"  src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/query.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Patient-Generated Health Data Platform</a>
+        </div>
+    </div>
+</nav>
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">Query Constraints</div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="start">Start Time:</label>
+                    <input type="text" class="form-control" id="start">
+                </div>
+                <div class="form-group">
+                    <label for="end">End Time:</label>
+                    <input type="text" class="form-control" id="end">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-lg btn-primary btn-block" onClick="register();">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
